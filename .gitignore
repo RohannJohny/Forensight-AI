@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python environments and cache
+.venv/
+**/.venv/
+venv/
+**/venv/
+ENV/
+env/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.py[cod]
+*$py.class
+
+# Build outputs
+dist/
+**/dist/
+dist-ssr/
+*.local
+
+# Environment configurations
+.env
+.env.*
+!.env.example
+
+# OS and IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary scratch and run directories
+scratch/
+**/scratch/
+tmp*/
+**/tmp*/
+**/tmpzgyhy1nh/
+
+# Logs
+logs/
+*.log
+*.log.gz
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Standalone subrepo backups
+.git_standalone/
+**/.git_standalone/
+
+# Runtime output directories
+forensight-final/output/
+**/forensight-final/output/
+
+# Archive files
+*.zip

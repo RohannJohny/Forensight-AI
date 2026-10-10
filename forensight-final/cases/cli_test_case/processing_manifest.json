@@ -1,0 +1,44 @@
+{
+  "case_id": "cli_test_case",
+  "evidence_id": "EVD-58E8C9F88C6B",
+  "input_file": "plaso_l2tcsv_example.csv",
+  "input_path": "D:\\Project\\forensight-final\\sample_data\\plaso_l2tcsv_example.csv",
+  "detected_type": "structured_export",
+  "detected_format": "Structured Forensic Data (CSV)",
+  "confidence": 0.95,
+  "sha256": "58e8c9f88c6b88b5bfb9a1c611d1337a00e8384707e7288f80b35c5a4798e09d",
+  "md5": "b8672b043e6b4df90fe4bbf2d4b3b963",
+  "processors": [],
+  "normalization": {
+    "input_events": 3,
+    "output_events": 3,
+    "duplicates_removed": 0
+  },
+  "mode": "direct_normalization",
+  "installed_tools": [
+    {
+      "name": "Autopsy",
+      "available": true,
+      "executable": "C:\\Program Files\\Autopsy-4.23.1\\bin\\autopsy64.exe",
+      "version": "4.23.1",
+      "platform": "Windows",
+      "note": "Windows GUI/CLI ingest tool; configured via AUTOPSY_BIN or config."
+    },
+    {
+      "name": "Plaso",
+      "available": true,
+      "executable": "D:\\Project\\forensight-final\\.venv\\Scripts\\psteal.exe",
+      "version": "20260720",
+      "platform": "Windows",
+      "note": "Timeline extraction engine; invokes psteal."
+    },
+    {
+      "name": "Volatility 3",
+      "available": true,
+      "executable": "D:\\Project\\forensight-final\\.venv\\Scripts\\vol.exe",
+      "version": "2.28.2",
+      "platform": "Windows",
+      "note": "Advanced memory forensics framework."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "autopsy": {
+      "executable": "C:\\Program Files\\Autopsy-4.23.1\\bin\\autopsy64.exe",
+      "timeout_seconds": 7200
+    },
+    "plaso": {
+      "executable": "D:\\Project\\forensight-final\\.venv\\Scripts\\psteal.exe",
+      "timeout_seconds": 7200
+    },
+    "volatility3": {
+      "executable": "D:\\Project\\forensight-final\\.venv\\Scripts\\vol.exe",
+      "timeout_seconds": 7200,
+      "default_plugins": [
+        "windows.info",
+        "windows.pslist",
+        "windows.pstree",
+        "windows.cmdline",
+        "windows.netscan"
+      ]
+    }
+  },
+  "pipeline": {
+    "output_base_dir": "cases",
+    "hash_algorithm": "sha256",
+    "enable_timeline_by_default": true,
+    "max_sample_events": 50000
+  }
+}

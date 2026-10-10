@@ -1,0 +1,75 @@
+{
+  "case_id": "FS-REAL-E01",
+  "evidence_id": "EVD-8E3B3F093D6C",
+  "input_file": "test_evidence_drive1.E01",
+  "input_path": "C:\\Users\\rohan\\Downloads\\Project\\Forensight AI \u2014 Baseline Prototype\\backend\\data\\evidence_vault\\FS-REAL-E01\\test_evidence_drive1.E01",
+  "detected_type": "disk_image",
+  "detected_format": "E01 (Expert Witness Compression Format)",
+  "confidence": 0.99,
+  "sha256": "8e3b3f093d6ca4daf15e3cb7038d6734273c4387df2b8d6d588b6e5eba33f615",
+  "md5": "2ccfa510ee28712b01544594f4fad721",
+  "processors": [
+    {
+      "tool": "Autopsy",
+      "version": "4.23.1",
+      "status": "SUCCESS",
+      "available": true,
+      "executed": true,
+      "returncode": 0,
+      "error": null,
+      "output_dir": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\cases\\FS-REAL-E01\\tool_outputs\\autopsy"
+    },
+    {
+      "tool": "Plaso",
+      "version": "20260720",
+      "status": "TOOL_FAILED",
+      "available": true,
+      "executed": true,
+      "returncode": 103,
+      "error": "Plaso failed with exit code 103",
+      "output_dir": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\cases\\FS-REAL-E01\\tool_outputs\\plaso"
+    },
+    {
+      "tool": "Volatility 3",
+      "version": "2.28.2",
+      "status": "SKIPPED_NOT_APPLICABLE",
+      "available": null,
+      "executed": false,
+      "returncode": null,
+      "error": "Not applicable: input is disk image evidence.",
+      "output_dir": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\cases\\FS-REAL-E01\\tool_outputs\\volatility_3"
+    }
+  ],
+  "normalization": {
+    "input_events": 192,
+    "output_events": 192,
+    "duplicates_removed": 0
+  },
+  "mode": "forensic_tool_routed",
+  "installed_tools": [
+    {
+      "name": "Autopsy",
+      "available": true,
+      "executable": "C:\\Program Files\\Autopsy-4.23.1\\bin\\autopsy64.exe",
+      "version": "4.23.1",
+      "platform": "Windows",
+      "note": "Windows GUI/CLI ingest tool; configured via AUTOPSY_BIN or config."
+    },
+    {
+      "name": "Plaso",
+      "available": true,
+      "executable": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\.venv\\Scripts\\python.exe",
+      "version": "20260720",
+      "platform": "Windows",
+      "note": "Timeline extraction engine; invokes psteal."
+    },
+    {
+      "name": "Volatility 3",
+      "available": true,
+      "executable": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\.venv\\Scripts\\python.exe",
+      "version": "2.28.2",
+      "platform": "Windows",
+      "note": "Advanced memory forensics framework."
+    }
+  ]
+}

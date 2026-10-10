@@ -1,0 +1,10 @@
+{
+  "tool": "Autopsy",
+  "version": "4.23.1",
+  "status": "SUCCESS",
+  "available": true,
+  "executed": true,
+  "returncode": 0,
+  "error": null,
+  "output_dir": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\cases\\FS-REAL-E01\\tool_outputs\\autopsy"
+}

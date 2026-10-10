@@ -1,0 +1,4 @@
+date,time,timezone,MACB,source,sourcetype,type,user,host,filename,description
+00/00/0000,--:--:--,-,M,FILE,File stat,Content Modification Time,-,-,GZIP:\\.fsevents\\0001,Invalid timestamp demo
+10/05/2026,10:32:41,UTC,M,FILE,File stat,Content Modification Time,john,HOST01,C:\\Users\\john\\sample.txt,File content modified
+10/05/2026,10:35:02,UTC,a,FILE,File stat,Access Time,john,HOST01,C:\\Users\\john\\sample.txt,File accessed

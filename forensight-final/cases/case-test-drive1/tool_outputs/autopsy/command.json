@@ -1,0 +1,9 @@
+[
+  "C:\\Program Files\\Autopsy-4.23.1\\bin\\autopsy64.exe",
+  "--createCase",
+  "--caseName=Case_case-test-drive1",
+  "--caseBaseDir=D:\\Project\\forensight-final\\cases\\case-test-drive1\\tool_outputs\\autopsy\\cases",
+  "--addDataSource",
+  "--dataSourcePath=D:\\Project\\test_evidence\\drive1.E01",
+  "--runIngest"
+]

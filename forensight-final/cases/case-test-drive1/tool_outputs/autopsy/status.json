@@ -1,0 +1,10 @@
+{
+  "tool": "Autopsy",
+  "version": "4.23.1",
+  "status": "TOOL_FAILED",
+  "available": true,
+  "executed": true,
+  "returncode": 4294967295,
+  "error": "Autopsy failed with returncode 4294967295",
+  "output_dir": "D:\\Project\\forensight-final\\cases\\case-test-drive1\\tool_outputs\\autopsy"
+}

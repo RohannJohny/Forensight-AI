@@ -1,0 +1,7 @@
+WARNING: Unknown module: javafx.base specified to --add-exports
+WARNING: Unknown module: javafx.controls specified to --add-exports
+WARNING: Unknown module: javafx.controls specified to --add-opens
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by org.netbeans.TopSecurityManager (file:/C:/Program%20Files/Autopsy-4.23.1/platform/lib/boot.jar)
+WARNING: Please consider reporting this to the maintainers of org.netbeans.TopSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release

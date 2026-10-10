@@ -1,0 +1,329 @@
+2026-10-07 01:32:04.414 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Saving case metadata to file...
+2026-10-07 01:32:04.599 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Creating case database...
+2026-10-07 01:32:07.728 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening case-level services...
+2026-10-07 01:32:08.401 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening application service case resources...
+2026-10-07 01:32:08.401 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-10-07 01:32:08.413 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Checking for schema updates...
+2026-10-07 01:32:08.416 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2026-10-07 01:32:08.43 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Starting events listener...
+2026-10-07 01:32:08.432 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-10-07 01:32:08.432 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-10-07 01:32:08.438 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-10-07 01:32:08.438 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-10-07 01:32:08.441 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Looking for text index metadata file, 7 of 0 total work units completed
+2026-10-07 01:32:08.443 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Creating new text index, 1 of 0 total work units completed
+2026-10-07 01:32:08.463 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening text index. For large cases this may take several minutes., 6 of 0 total work units completed
+2026-10-07 01:32:12.915 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2026-10-07 01:32:12.987 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: New Solr process PID: []
+2026-10-07 01:32:12.987 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2026-10-07 01:32:12.993 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2026-10-07 01:32:12.993 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2026-10-07 01:32:12.997 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2026-10-07 01:32:14.492 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2026-10-07 01:32:14.55 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Text index successfully opened, 7 of 0 total work units completed
+2026-10-07 01:32:14.551 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-10-07 01:32:14.551 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-10-07 01:32:14.558 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening Image Gallery databases...
+2026-10-07 01:32:14.668 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2026-10-07 01:32:14.894 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.49.1.0 loaded in native mode
+2026-10-07 01:32:15.014 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opened Image Gallery databases.
+2026-10-07 01:32:15.014 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-10-07 01:32:15.015 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-10-07 01:32:15.015 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened Case_FS-REAL-E01_1791316917 (case_fs-real-e01_1791316917_20261007_013204) in C:\Users\rohan\Downloads\Project\forensight-final\cases\FS-REAL-E01\tool_outputs\autopsy\cases\Case_FS-REAL-E01_1791316917_2026_10_07_01_32_04 as the current case
+2026-10-07 01:32:15.336 org.sleuthkit.autopsy.commandlineingest.CommandLineManager createCase
+INFO: Created case case_fs-real-e01_1791316917_20261007_013204
+2026-10-07 01:32:15.369 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask run
+INFO: Processing 'Add Data Source' command
+2026-10-07 01:32:15.37 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask runDataSourceProcessor
+INFO: Adding data source C:\Users\rohan\Downloads\Project\Forensight AI — Baseline Prototype\backend\data\evidence_vault\FS-REAL-E01\test_evidence_drive1.E01 
+2026-10-07 01:32:16.557 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask runDataSourceProcessor
+INFO: Identified data source type for C:\Users\rohan\Downloads\Project\Forensight AI — Baseline Prototype\backend\data\evidence_vault\FS-REAL-E01\test_evidence_drive1.E01 as Disk Image or VM File
+2026-10-07 01:32:18.206 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask logDataSourceProcessorResult
+INFO: Added data source to case
+2026-10-07 01:32:18.211 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask run
+INFO: Processing 'Run Ingest' command
+2026-10-07 01:32:18.211 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask analyze
+INFO: Starting ingest modules analysis for C:\Users\rohan\Downloads\Project\Forensight AI — Baseline Prototype\backend\data\evidence_vault\FS-REAL-E01\test_evidence_drive1.E01 
+2026-10-07 01:32:18.259 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2026-10-07 01:32:18.262 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.23.1
+2026-10-07 01:32:18.265 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.23.1
+2026-10-07 01:32:18.267 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.23.1
+2026-10-07 01:32:18.27 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.23.1
+2026-10-07 01:32:18.27 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.23.1
+2026-10-07 01:32:18.273 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.23.1
+2026-10-07 01:32:18.275 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.23.1
+2026-10-07 01:32:18.278 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.23.1
+2026-10-07 01:32:18.278 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.23.1
+2026-10-07 01:32:18.28 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.23.1
+2026-10-07 01:32:18.28 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.23.1
+2026-10-07 01:32:18.282 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2026-10-07 01:32:18.284 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.23.1
+2026-10-07 01:32:18.286 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.23.1
+2026-10-07 01:32:18.288 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.23.1
+2026-10-07 01:32:18.29 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.23.1
+2026-10-07 01:32:18.291 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.23.1
+2026-10-07 01:32:18.293 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.23.1
+2026-10-07 01:32:18.293 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.23.1
+2026-10-07 01:32:18.333 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2026-10-07 01:32:18.334 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.23.1
+2026-10-07 01:32:18.546 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2026-10-07 01:32:18.893 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-10-07 01:32:21.657 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-10-07 01:32:22.05 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[Data Content,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
+2026-10-07 01:32:22.109 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of C:\
+2026-10-07 01:32:22.11 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0 at 1791316942110
+2026-10-07 01:32:22.115 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2026-10-07 01:32:22.289 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2026-10-07 01:32:23.296 org.sleuthkit.autopsy.modules.yara.YaraIngestModule startUp
+INFO: YARA ingest module: No rule set was selected for this ingest job.
+2026-10-07 01:32:23.552 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Starting ingest job in file batch mode (data source = test_evidence_drive1.E01, data source object ID = 1, job ID = 0)
+2026-10-07 01:32:23.554 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of test_evidence_drive1.E01 starting
+2026-10-07 01:32:23.568 org.sleuthkit.autopsy.recentactivity.RecentDocumentsByLnk getRecentDocuments
+INFO: Didn't find any recent files.
+2026-10-07 01:32:23.68 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-10-07 01:32:23.68 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-10-07 01:32:23.68 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-10-07 01:32:23.681 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-10-07 01:32:23.682 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-10-07 01:32:23.682 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-10-07 01:32:23.683 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-10-07 01:32:23.687 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2026-10-07 01:32:23.688 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2026-10-07 01:32:23.688 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2026-10-07 01:32:23.688 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2026-10-07 01:32:23.689 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2026-10-07 01:32:23.689 org.sleuthkit.autopsy.recentactivity.Firefox getFormsHistory
+INFO: No FireFox form history files found.
+2026-10-07 01:32:23.69 org.sleuthkit.autopsy.recentactivity.Firefox getAutofillProfiles
+INFO: Didn't find any Firefox Autofill Profiles files.
+2026-10-07 01:32:23.692 org.sleuthkit.autopsy.recentactivity.ExtractIE getBookmark
+INFO: Didn't find any IE bookmark files.
+2026-10-07 01:32:23.692 org.sleuthkit.autopsy.recentactivity.ExtractIE getCookie
+INFO: Didn't find any IE cookies files.
+2026-10-07 01:32:23.693 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: C:\Users\rohan\AppData\Local\Temp\Autopsy\case_fs-real-e01_1791316917_20261007_013204\Temp\RecentActivity\IE_0\results
+2026-10-07 01:32:23.693 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: C:\Program Files\Autopsy-4.23.1\autopsy\pasco2
+2026-10-07 01:32:23.695 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: No InternetExplorer history files found.
+2026-10-07 01:32:23.7 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 0 blackboard artifacts.
+2026-10-07 01:32:23.701 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 0 queries from the blackboard
+2026-10-07 01:32:23.706 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 0
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+Amazon : 0
+DuckDuckGo : 0
+Youtube : 0
+Reddit : 0
+CCSearch : 0
+Swisscows : 0
+GIbiru : 0
+Wiki : 0
+Cutestat : 0
+Givewater : 0
+Ekoru : 0
+Ecosia : 0
+Slideshare : 0
+Wikipedia : 0
+Wiki : 0
+
+2026-10-07 01:32:23.707 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType extractDomainRoles
+INFO: Processing 0 blackboard artifacts.
+2026-10-07 01:32:23.707 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType$RoleProcessor createArtifacts
+INFO: Didn't find any web accounts.
+2026-10-07 01:32:25.145 org.sleuthkit.autopsy.recentactivity.ExtractThumbcache process
+WARNING: Error finding thumbcache files
+2026-10-07 01:32:25.146 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Processing 0 blackboard artifacts.
+2026-10-07 01:32:25.147 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Extracted 0 distinct messaging domain(s) from the blackboard.  Of the 0 artifact(s) with valid hosts, 0 url(s) contained messaging domain suffix.
+2026-10-07 01:32:25.147 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of test_evidence_drive1.E01 finished
+2026-10-07 01:32:25.147 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer analysis of test_evidence_drive1.E01 starting
+2026-10-07 01:32:26.972 AndroidIngestModule process
+INFO: running 22 analyzers
+2026-10-07 01:32:27.017 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer analysis of test_evidence_drive1.E01 finished
+2026-10-07 01:32:27.017 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of test_evidence_drive1.E01 starting
+2026-10-07 01:32:27.02 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of test_evidence_drive1.E01 finished
+2026-10-07 01:32:27.02 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of test_evidence_drive1.E01 starting
+2026-10-07 01:32:27.021 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: Looking for virtual machine files in data source test_evidence_drive1.E01
+2026-10-07 01:32:27.022 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: No virtual machine files found in data source test_evidence_drive1.E01
+2026-10-07 01:32:27.023 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of test_evidence_drive1.E01 finished
+2026-10-07 01:32:27.023 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of test_evidence_drive1.E01 starting
+2026-10-07 01:32:27.025 org.sleuthkit.autopsy.modules.leappanalyzers.ALeappAnalyzerIngestModule process
+INFO: aLeapp: data source does not appear to be Android, skipping.
+2026-10-07 01:32:27.025 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of test_evidence_drive1.E01 finished
+2026-10-07 01:32:27.026 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: DJI Drone Analyzer analysis of test_evidence_drive1.E01 starting
+2026-10-07 01:32:27.041 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: DJI Drone Analyzer analysis of test_evidence_drive1.E01 finished
+2026-10-07 01:32:27.042 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: iOS Analyzer (iLEAPP) analysis of test_evidence_drive1.E01 starting
+2026-10-07 01:32:27.044 org.sleuthkit.autopsy.modules.leappanalyzers.ILeappAnalyzerIngestModule process
+INFO: iLeapp: data source does not appear to be iOS, skipping.
+2026-10-07 01:32:27.044 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: iOS Analyzer (iLEAPP) analysis of test_evidence_drive1.E01 finished
+2026-10-07 01:32:32.873 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 0 of ingest job (data source = test_evidence_drive1.E01, data source object ID = 1, job ID = 0)
+2026-10-07 01:32:33.017 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Scheduling ingest tasks for tier 1 of ingest job (data source = test_evidence_drive1.E01, data source object ID = 1, job ID = 0)
+2026-10-07 01:32:33.017 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Data Source Integrity analysis of test_evidence_drive1.E01 starting
+2026-10-07 01:32:33.019 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Total chunks = 32,328
+2026-10-07 01:32:33.02 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Starting hash verification of test_evidence_drive1.E01
+2026-10-07 01:32:36.826 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from test_evidence_drive1.E01: ef7524255c11ac089e532cd3db4d1d46
+2026-10-07 01:32:36.826 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from test_evidence_drive1.E01: c89f230d0b9a2bb221dc6036b24e8f293dd0c079
+2026-10-07 01:32:36.827 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Data Source Integrity analysis of test_evidence_drive1.E01 finished
+2026-10-07 01:32:36.828 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 1 of ingest job (data source = test_evidence_drive1.E01, data source object ID = 1, job ID = 0)
+2026-10-07 01:32:36.828 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for ingest job (data source = test_evidence_drive1.E01, data source object ID = 1, job ID = 0)
+2026-10-07 01:32:36.833 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 0 completed at 1791316956833
+2026-10-07 01:32:36.835 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask analyze
+INFO: Finished ingest modules analysis for C:\Users\rohan\Downloads\Project\Forensight AI — Baseline Prototype\backend\data\evidence_vault\FS-REAL-E01\test_evidence_drive1.E01 
+2026-10-07 01:32:36.837 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask analyze
+INFO: Analysis of data source completed
+2026-10-07 01:32:36.839 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case Case_FS-REAL-E01_1791316917 (case_fs-real-e01_1791316917_20261007_013204) in C:\Users\rohan\Downloads\Project\forensight-final\cases\FS-REAL-E01\tool_outputs\autopsy\cases\Case_FS-REAL-E01_1791316917_2026_10_07_01_32_04
+2026-10-07 01:32:36.839 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-10-07 01:32:36.839 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Closing case-specific application service resources...
+2026-10-07 01:32:36.84 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-10-07 01:32:36.84 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Finishing adding data to central repository database....
+2026-10-07 01:32:36.841 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-10-07 01:32:36.841 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-10-07 01:32:36.842 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-10-07 01:32:36.842 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-10-07 01:32:38.878 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-10-07 01:32:38.879 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-10-07 01:32:38.88 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case Case_FS-REAL-E01_1791316917 (case_fs-real-e01_1791316917_20261007_013204)
+2026-10-07 01:32:38.881 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2026-10-07 01:32:38.881 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case Case_FS-REAL-E01_1791316917 (case_fs-real-e01_1791316917_20261007_013204)
+2026-10-07 01:32:38.883 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-10-07 01:32:38.883 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Closing case database...
+2026-10-07 01:32:38.896 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Clearing case temp directory...
+2026-10-07 01:32:38.906 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Switching log directory...

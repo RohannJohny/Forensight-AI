@@ -1,0 +1,44 @@
+{
+  "case_id": "FS-TEST-7BFD74",
+  "evidence_id": "EVD-50001164B807",
+  "input_file": "synthetic_forensic_events.json",
+  "input_path": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\sample_data\\synthetic_forensic_events.json",
+  "detected_type": "structured_export",
+  "detected_format": "Structured Forensic Data (JSON)",
+  "confidence": 0.95,
+  "sha256": "50001164b807105b9df47e03e3eeaf11d2e90ea286bd8d5ff927bac5a2959fe2",
+  "md5": "cf5619931e13763192346e02da5f725c",
+  "processors": [],
+  "normalization": {
+    "input_events": 6,
+    "output_events": 6,
+    "duplicates_removed": 0
+  },
+  "mode": "direct_normalization",
+  "installed_tools": [
+    {
+      "name": "Autopsy",
+      "available": true,
+      "executable": "C:\\Program Files\\Autopsy-4.23.1\\bin\\autopsy64.exe",
+      "version": "4.23.1",
+      "platform": "Windows",
+      "note": "Windows GUI/CLI ingest tool; configured via AUTOPSY_BIN or config."
+    },
+    {
+      "name": "Plaso",
+      "available": true,
+      "executable": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\.venv\\Scripts\\python.exe",
+      "version": "20260720",
+      "platform": "Windows",
+      "note": "Timeline extraction engine; invokes psteal."
+    },
+    {
+      "name": "Volatility 3",
+      "available": true,
+      "executable": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\.venv\\Scripts\\python.exe",
+      "version": "2.28.2",
+      "platform": "Windows",
+      "note": "Advanced memory forensics framework."
+    }
+  ]
+}

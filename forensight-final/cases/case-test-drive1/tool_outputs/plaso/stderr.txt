@@ -1,0 +1,1 @@
+2026-10-06 15:27:59,502 [INFO] (MainProcess) PID:29672 <artifact_definitions> Determined artifact definitions path: D:\forensight\v5\forensight-final\.venv\Lib\site-packages\artifacts\data

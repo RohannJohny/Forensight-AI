@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-10-05T09:58:12+05:30",
+      "event_type": "BROWSER_VISIT",
+      "source": "Chrome History",
+      "host": "DESKTOP-FORENSIGHT",
+      "user": "jeril",
+      "process": "chrome.exe",
+      "artifact": "History",
+      "action": "visited",
+      "metadata": {"url": "https://example.test/downloads"}
+    },
+    {
+      "timestamp": "2026-10-05T10:00:04+05:30",
+      "event_type": "FILE_DOWNLOAD",
+      "source": "Chrome Downloads",
+      "host": "DESKTOP-FORENSIGHT",
+      "user": "jeril",
+      "process": "chrome.exe",
+      "file_path": "C:\\Users\\jeril\\Downloads\\sample.exe",
+      "artifact": "Downloads",
+      "action": "downloaded",
+      "metadata": {"url": "https://example.test/sample.exe"}
+    },
+    {
+      "timestamp": "2026-10-05T10:01:17+05:30",
+      "event_type": "FILE_CREATED",
+      "source": "Filesystem",
+      "host": "DESKTOP-FORENSIGHT",
+      "user": "jeril",
+      "file_path": "C:\\Users\\jeril\\Downloads\\sample.exe",
+      "file_hash": "1111111111111111111111111111111111111111111111111111111111111111",
+      "artifact": "$MFT",
+      "action": "created",
+      "metadata": {"size": 183296}
+    },
+    {
+      "timestamp": "2026-10-05T10:02:22+05:30",
+      "event_type": "PROCESS_EXECUTION",
+      "source": "Windows Security Event Log",
+      "host": "DESKTOP-FORENSIGHT",
+      "user": "jeril",
+      "process": "sample.exe",
+      "command_line": "C:\\Users\\jeril\\Downloads\\sample.exe",
+      "file_path": "C:\\Users\\jeril\\Downloads\\sample.exe",
+      "file_hash": "1111111111111111111111111111111111111111111111111111111111111111",
+      "artifact": "Security Event ID 4688",
+      "action": "executed",
+      "metadata": {"parent_process": "explorer.exe", "event_id": 4688}
+    },
+    {
+      "timestamp": "2026-10-05T10:03:05+05:30",
+      "event_type": "REGISTRY_CHANGE",
+      "source": "Windows Registry",
+      "host": "DESKTOP-FORENSIGHT",
+      "user": "jeril",
+      "process": "reg.exe",
+      "file_path": "C:\\Users\\jeril\\Downloads\\sample.exe",
+      "artifact": "NTUSER.DAT",
+      "action": "changed",
+      "metadata": {"registry_key": "Software\\ForensightDemo"}
+    },
+    {
+      "timestamp": "2026-10-05T10:04:41+05:30",
+      "event_type": "NETWORK_CONNECTION",
+      "source": "Network Artifact",
+      "host": "DESKTOP-FORENSIGHT",
+      "user": "jeril",
+      "process": "sample.exe",
+      "source_ip": "192.168.1.20",
+      "destination_ip": "203.0.113.50",
+      "source_port": 52144,
+      "destination_port": 443,
+      "file_path": "C:\\Users\\jeril\\Downloads\\sample.exe",
+      "file_hash": "1111111111111111111111111111111111111111111111111111111111111111",
+      "artifact": "Network Connection Log",
+      "action": "connected",
+      "metadata": {"protocol": "TCP"}
+    }
+  ]
+}

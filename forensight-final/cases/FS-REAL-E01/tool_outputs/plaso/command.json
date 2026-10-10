@@ -1,0 +1,13 @@
+[
+  "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\.venv\\Scripts\\python.exe",
+  "-m",
+  "plaso.scripts.psteal",
+  "--source",
+  "C:\\Users\\rohan\\Downloads\\Project\\Forensight AI \u2014 Baseline Prototype\\backend\\data\\evidence_vault\\FS-REAL-E01\\test_evidence_drive1.E01",
+  "-o",
+  "l2tcsv",
+  "-w",
+  "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\cases\\FS-REAL-E01\\tool_outputs\\plaso\\plaso_timeline.csv",
+  "--timezone",
+  "UTC"
+]

@@ -1,0 +1,10 @@
+{
+  "tool": "Volatility 3",
+  "version": "2.28.2",
+  "status": "SKIPPED_NOT_APPLICABLE",
+  "available": null,
+  "executed": false,
+  "returncode": null,
+  "error": "Not applicable: input is disk image evidence.",
+  "output_dir": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\cases\\FS-REAL-E01\\tool_outputs\\volatility_3"
+}

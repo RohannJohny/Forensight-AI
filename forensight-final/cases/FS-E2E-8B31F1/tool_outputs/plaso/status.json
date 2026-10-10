@@ -1,0 +1,10 @@
+{
+  "tool": "Plaso",
+  "version": "20260720",
+  "status": "TOOL_FAILED",
+  "available": true,
+  "executed": true,
+  "returncode": 103,
+  "error": "Plaso failed with exit code 103",
+  "output_dir": "C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\cases\\FS-E2E-8B31F1\\tool_outputs\\plaso"
+}

@@ -1,0 +1,9 @@
+2026-10-07T04:57:10.502216300Z main ERROR Log4j API could not find a logging provider.
+Embedded jre directory found in: C:\Program Files\Autopsy-4.23.1\jre
+Using java binary path: C:\Program Files\Autopsy-4.23.1\jre\bin\java
+Processing Autopsy command line options
+Completed processing Autopsy command line options
+Processing 'Create Case' command
+Processing 'Add Data Source' command
+Processing 'Run Ingest' command
+Job processing task finished

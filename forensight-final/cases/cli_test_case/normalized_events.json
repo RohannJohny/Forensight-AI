@@ -1,0 +1,118 @@
+{
+  "events": [
+    {
+      "event_id": "EVT-02093367A4D9",
+      "timestamp": null,
+      "event_type": "FILE_MODIFIED",
+      "source": "FILE",
+      "host": null,
+      "user": null,
+      "process": null,
+      "command_line": null,
+      "source_ip": null,
+      "destination_ip": null,
+      "source_port": null,
+      "destination_port": null,
+      "file_path": "\\.fsevents\\0001",
+      "file_hash": null,
+      "artifact": "FILE (File stat)",
+      "action": "modified",
+      "metadata": {
+        "plaso_row": {
+          "date": "00/00/0000",
+          "time": "--:--:--",
+          "timezone": "-",
+          "MACB": "M",
+          "source": "FILE",
+          "sourcetype": "File stat",
+          "type": "Content Modification Time",
+          "user": "-",
+          "host": "-",
+          "filename": "GZIP:\\\\.fsevents\\\\0001",
+          "description": "Invalid timestamp demo"
+        },
+        "timezone": "-",
+        "source_type": "File stat",
+        "desc": "Invalid timestamp demo",
+        "original_date": "00/00/0000",
+        "original_time": "--:--:--"
+      }
+    },
+    {
+      "event_id": "EVT-29ED8E31BEF8",
+      "timestamp": "2026-10-05T10:32:41Z",
+      "event_type": "FILE_MODIFIED",
+      "source": "FILE",
+      "host": "HOST01",
+      "user": "john",
+      "process": null,
+      "command_line": null,
+      "source_ip": null,
+      "destination_ip": null,
+      "source_port": null,
+      "destination_port": null,
+      "file_path": "C:\\Users\\john\\sample.txt",
+      "file_hash": null,
+      "artifact": "FILE (File stat)",
+      "action": "modified",
+      "metadata": {
+        "plaso_row": {
+          "date": "10/05/2026",
+          "time": "10:32:41",
+          "timezone": "UTC",
+          "MACB": "M",
+          "source": "FILE",
+          "sourcetype": "File stat",
+          "type": "Content Modification Time",
+          "user": "john",
+          "host": "HOST01",
+          "filename": "C:\\\\Users\\\\john\\\\sample.txt",
+          "description": "File content modified"
+        },
+        "timezone": "UTC",
+        "source_type": "File stat",
+        "desc": "File content modified",
+        "original_date": "10/05/2026",
+        "original_time": "10:32:41"
+      }
+    },
+    {
+      "event_id": "EVT-9C6D1DBA5465",
+      "timestamp": "2026-10-05T10:35:02Z",
+      "event_type": "FILE_ACCESSED",
+      "source": "FILE",
+      "host": "HOST01",
+      "user": "john",
+      "process": null,
+      "command_line": null,
+      "source_ip": null,
+      "destination_ip": null,
+      "source_port": null,
+      "destination_port": null,
+      "file_path": "C:\\Users\\john\\sample.txt",
+      "file_hash": null,
+      "artifact": "FILE (File stat)",
+      "action": "accessed",
+      "metadata": {
+        "plaso_row": {
+          "date": "10/05/2026",
+          "time": "10:35:02",
+          "timezone": "UTC",
+          "MACB": "a",
+          "source": "FILE",
+          "sourcetype": "File stat",
+          "type": "Access Time",
+          "user": "john",
+          "host": "HOST01",
+          "filename": "C:\\\\Users\\\\john\\\\sample.txt",
+          "description": "File accessed"
+        },
+        "timezone": "UTC",
+        "source_type": "File stat",
+        "desc": "File accessed",
+        "original_date": "10/05/2026",
+        "original_time": "10:35:02"
+      }
+    }
+  ]
+}

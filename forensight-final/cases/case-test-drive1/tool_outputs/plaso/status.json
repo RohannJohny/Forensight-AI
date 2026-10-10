@@ -1,0 +1,10 @@
+{
+  "tool": "Plaso",
+  "version": "20260720",
+  "status": "TOOL_FAILED",
+  "available": true,
+  "executed": true,
+  "returncode": 1,
+  "error": "Plaso failed with exit code 1",
+  "output_dir": "D:\\Project\\forensight-final\\cases\\case-test-drive1\\tool_outputs\\plaso"
+}

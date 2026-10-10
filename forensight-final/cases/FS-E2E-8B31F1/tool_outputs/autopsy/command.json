@@ -1,0 +1,9 @@
+[
+  "C:\\Program Files\\Autopsy-4.23.1\\bin\\autopsy64.exe",
+  "--createCase",
+  "--caseName=Case_FS-E2E-8B31F1_1791349027",
+  "--caseBaseDir=C:\\Users\\rohan\\Downloads\\Project\\forensight-final\\cases\\FS-E2E-8B31F1\\tool_outputs\\autopsy\\cases",
+  "--addDataSource",
+  "--dataSourcePath=C:\\Users\\rohan\\Downloads\\Project\\Forensight AI \u2014 Baseline Prototype\\backend\\data\\evidence_vault\\FS-E2E-8B31F1\\test_evidence_drive1.E01",
+  "--runIngest"
+]

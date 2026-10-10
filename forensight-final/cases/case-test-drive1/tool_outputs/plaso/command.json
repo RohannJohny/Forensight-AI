@@ -1,0 +1,11 @@
+[
+  "D:\\Project\\forensight-final\\.venv\\Scripts\\psteal.exe",
+  "--source",
+  "D:\\Project\\test_evidence\\drive1.E01",
+  "-o",
+  "l2tcsv",
+  "-w",
+  "D:\\Project\\forensight-final\\cases\\case-test-drive1\\tool_outputs\\plaso\\plaso_timeline.csv",
+  "--timezone",
+  "UTC"
+]
